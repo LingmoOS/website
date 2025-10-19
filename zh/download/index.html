@@ -66,9 +66,10 @@
 <button class="version-tab px-6 py-2 rounded-full whitespace-nowrap focus:outline-none active bg-white text-primary shadow-sm" data-target="stable">
 稳定版
 </button>
-<button class="version-tab px-6 py-2 rounded-full whitespace-nowrap focus:outline-none" data-target="beta">
+<!--<button class="version-tab px-6 py-2 rounded-full whitespace-nowrap focus:outline-none" data-target="beta">
 预发布版
 </button>
+-->
 <!--<button class="version-tab px-6 py-2 rounded-full whitespace-nowrap focus:outline-none" data-target="alpha">
 测试版
 </button>
@@ -80,30 +81,29 @@
 <div class="flex items-center justify-between mb-6">
 <div>
 <h3 class="text-2xl font-bold">Lingmo OS 3.0 正式版</h3>
-<p class="text-gray-500">发布日期: 2025-06-13</p>
+<p class="text-gray-500">发布日期: 2025-10-19</p>
 </div>
 <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">推荐</span>
 </div>
 <div class="mb-6">
 <h4 class="font-semibold mb-2">更新内容:</h4>
 <ul class="text-gray-600 space-y-2 pl-5">
-<li>新增了桌面图标排序功能</li>
-<li>新增了选择所有现有程序打开文件的功能</li>
-<li>在顶部状态栏新增全局搜索图标</li>
-<li>在顶部状态栏新增显示桌面图标</li>
-<li>应用启动器支持显示 Flatpak 程序</li>
-<li>Dock支持显示 Flatpak 程序</li>
-<li>修复了桌面图标无法通过右键菜单调整大小的问题</li>
-<li>优化了快捷键设置页面的显示效果</li>
+<li>更新系统窗口显示效果</li>
+<li>升级部分系统软件</li>
+<li>升级系统内固件版本</li>
+<li>优化第三方窗口标题栏显示效果</li>
+<li>修复在系统设置中无法添加用户的问题</li>
+<li>修复在系统设置中无法修改自动登录的问题</li>
+<li>修复在系统更新中更新包大小显示异常的问题</li>
 <li>...</li>
 </ul>
 </div>
 <div class="flex flex-wrap gap-4">
-<a href="https://sourceforge.net/projects/lingmo-os/files/release/iso/helium/3.0.0/lingmo-os-3.0.0-helium-desktop-x86_64.iso/download" class="gradient-bg text-white px-6 py-3 rounded-button font-semibold shadow-md hover:shadow-lg transition-all whitespace-nowrap">
-<i class="ri-download-line mr-2"></i>下载 (2.8 GB)
+<a href="https://sourceforge.net/projects/lingmo-os/files/release/iso/helium/3.0.5/lingmo-os-3.0.5-25R06-stable-desktop-amd64.iso/download" class="gradient-bg text-white px-6 py-3 rounded-button font-semibold shadow-md hover:shadow-lg transition-all whitespace-nowrap">
+<i class="ri-download-line mr-2"></i> 从 SourceForge下载 (3.2 GB)
 </a>
-<a href="https://packages.lingmo.org/lingmo/release/latest/" class="gradient-bg text-white px-6 py-3 rounded-button font-semibold shadow-md hover:shadow-lg transition-all whitespace-nowrap">
-<i class="ri-download-line mr-2"></i>下载 (iso仓库)
+<a href="https://packages.lingmo.org/d/lh/release/25R06/images/lingmo-os-3.0.5-25R06-stable-desktop-amd64.iso" class="gradient-bg text-white px-6 py-3 rounded-button font-semibold shadow-md hover:shadow-lg transition-all whitespace-nowrap">
+<i class="ri-download-line mr-2"></i>从官方仓库下载 (3.2 GB)
 </a>
 <!-- <a href="#" class="gradient-bg text-white px-6 py-3 rounded-button font-semibold shadow-md hover:shadow-lg transition-all whitespace-nowrap">
 <i class="ri-download-line mr-2"></i>32位版本 (4.8 GB)
@@ -114,6 +114,7 @@
 </div>
 </div>
 <!-- 预发布版内容 -->
+<!--
 <div id="beta-content" class="tab-content bg-white rounded-lg shadow-md p-8">
 <div class="flex items-center justify-between mb-6">
 <div>
@@ -141,20 +142,25 @@
 <li>修复桌面右键菜单中文翻译不全问题</li>
 <li>优化系统部分图标显示</li>
 <li>...</li>
+-->
+<!--
 </ul>
 </div>
 <div class="flex flex-wrap gap-4">
 <a href="https://sourceforge.net/projects/lingmo-os/files/release/iso/helium/rc/lingmo-os-3.0-rc-helium-beta-20250201-a-desktop-amd64.iso/download" class="bg-yellow-500 text-white px-6 py-3 rounded-button font-semibold shadow-md hover:shadow-lg transition-all whitespace-nowrap">
 <i class="ri-download-line mr-2"></i>下载 (2.6 GB)
 </a>
+-->
 <!-- <a href="#" class="bg-yellow-500 text-white px-6 py-3 rounded-button font-semibold shadow-md hover:shadow-lg transition-all whitespace-nowrap">
 <i class="ri-download-line mr-2"></i>32位版本 (5.0 GB)
 </a> -->
 <!--<a href="#" class="text-primary hover:text-secondary font-medium whitespace-nowrap flex items-center">
 <i class="ri-file-list-line mr-1"></i>查看完整更新日志
 </a>-->
+<!--
 </div>
 </div>
+-->
 <!-- 测试版内容 -->
 <!-- <div id="alpha-content" class="tab-content bg-white rounded-lg shadow-md p-8">
 <div class="flex items-center justify-between mb-6">
@@ -193,7 +199,6 @@
 </div>
 </div>
 </div>
--->
 <div class="mt-12 text-center">
 <h3 class="text-xl font-semibold mb-4">历史版本</h3>
 <div class="inline-block">
